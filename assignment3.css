@@ -1,0 +1,89 @@
+/* Positioning: Put your content in two columns (ex: main content and a sidebar). Center your columns in the browser window
+
+Type: change in type: size, weight, color, alignment. You must use system fonts and define a font stack (see references on delicious to tell what's a web safe font). Define a font style for paragraphs and headings.
+
+Links: Change the default browser style. Add active, hover, and visited styles.
+
+Image: remove the border from your linked image (don’t forget this one; it doesn’t show up by default on most Mac browsers).
+
+Navigation: remove bullets from navigation. Display horizontally.
+
+Background: Give something on the page a background color or background image
+*/
+
+html {
+    font-size: 14px;
+    background: #dbded7;
+}
+body {
+    width: 60%;
+    background: #f4f5f3;
+    margin: 0 auto;
+    padding: 1rem 3%;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+p {
+    font-style: italic;
+    font-size: 0.8rem;
+    text-align: center;
+}
+a {
+    color: #d16a5d;
+    text-decoration: none;
+}
+a:visited {
+    color: #9c392c;
+}
+a:hover {
+    color: #e8b3ac;
+}
+code {
+    background: #ddd;
+    color: #000;
+    padding: 0.2rem 0.3rem;
+    font-style: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-style: italic;
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+}
+h2 {
+    color: #01632d;
+}
+a img {
+    border: none;
+}
+a:hover img {
+    opacity: 0.8;
+}
+.clear {
+    clear: both;
+}
+#container {
+    color: #01632d;
+}
+#col-1 {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+#col-2 {
+    float: left;
+    width: 48%
+}
+#nav {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    list-style: none;
+    font-variant: small-caps;
+    text-transform: lowercase;
+}
+#nav li {
+    display: inline;
+    margin-right: 2rem;
+}
