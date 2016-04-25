@@ -1,9 +1,10 @@
 body {
     font-family: "Andale Mono", Monaco, "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    margin: 0;
 }
 
 #container {
-    margin: 0 1vw;
+    padding: 0 1vw;
     width: 98vw;
     max-width: 600px;
     text-align: left;
