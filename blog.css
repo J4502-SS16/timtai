@@ -1,0 +1,41 @@
+body {
+    font-family: "Andale Mono", Monaco, "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+#container {
+    margin: 0 1vw;
+    width: 98vw;
+    max-width: 600px;
+    text-align: left;
+}
+#container h1:before, #container h2:before, #container h3:before {
+    content: "<";
+}
+#container h1:after, #container h2:after, #container h3:after {
+    content: ">";
+}
+#container h2 {
+    margin-left: 2vw;
+}
+#container h3 {
+    margin-left: 4vw;
+}
+#container p {
+    margin-left: 6vw;
+}
+#container h2 + p {
+    margin-left: 4vw;
+}
+#container ul {
+    list-style: none;
+    padding: 0;
+}
+#container ul li {
+    padding-bottom: 1em;
+}
+#container ul li:last-child {
+    padding: 0;
+}
+#container img {
+    max-width: 100%;
+}
